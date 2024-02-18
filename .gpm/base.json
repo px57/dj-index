@@ -1,0 +1,8 @@
+{
+    "base_path": "/var/projects/buzz/buzz-intern-server/index/.gpm/base.json",
+    "gpm_path": "/var/projects/buzz/buzz-intern-server/index/.gpm",
+    "name": "dj-index",
+    "project_type": "module",
+    "repository_url": "https://github.com/px57/dj-index.git",
+    "root_path": "/var/projects/buzz/buzz-intern-server/index"
+}
