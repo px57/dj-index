@@ -12,4 +12,7 @@ def index(request, path=None):
     # response = HttpResponse('blah')
     # profile_libs.generate_anonymous_user(request, response)
 
-    return render(request, request.language.get_index_src())
+    try:
+        return render(request, request.language.get_index_src())
+    except Exception as e:
+        return render(request, 'index.html')
